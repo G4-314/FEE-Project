@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">
+<rect width="400" height="600" fill="#10141e"/>
+<rect x="15" y="20" width="370" height="560" fill="none" stroke="#d1d5db" stroke-width="2" opacity="0.8"/>
+<text x="200" y="260" text-anchor="middle" fill="#f8fafc" font-size="34" font-family="Arial" font-weight="bold">VIBE CINEMA</text>
+<text x="200" y="320" text-anchor="middle" fill="#b6b6b6" font-size="20" font-family="Arial">POSTER</text>
+</svg>

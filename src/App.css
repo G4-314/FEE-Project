@@ -1,0 +1,14 @@
+.app-shell { min-height: 100vh; background: #0b0f16; color: #fff; }
+.navbar { background: #11151d; color: #fff; padding: 16px 30px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(247, 191, 97, 0.2); }
+.brand { font-family: Georgia, 'Times New Roman', serif; font-size: 26px; color: #ffdca8; text-decoration: none; font-weight: 900; letter-spacing: 0.08em; }
+.nav-links { display: flex; gap: 22px; align-items: center; }
+.nav-link { color: #fff; text-decoration: none; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; }
+.nav-link:hover { color: #f7bf61; }
+.home-page, .login-page { min-height: 70vh; background: #0b0f16; color: #fff; display: flex; align-items: center; justify-content: center; padding: 50px 20px; }
+.home-card, .login-card { max-width: 780px; width: 100%; background: #14181f; border-radius: 22px; padding: 44px; text-align: center; border: 1px solid rgba(247, 191, 97, 0.4); }
+.home-card h1, .login-card h1 { color: #fff; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(44px, 4vw, 56px); }
+.home-actions { display: flex; gap: 14px; justify-content: center; }
+.login-form { max-width: 340px; margin: 16px auto 0; display: flex; flex-direction: column; gap: 14px; }
+.login-form label { display: flex; flex-direction: column; gap: 8px; color: #d8d3c9; text-align: left; }
+.login-form input { background: #101620; border: 1px solid rgba(247, 191, 97, 0.4); color: #fff; border-radius: 10px; padding: 12px; }
+.login-form .confirm-btn { width: fit-content; margin-top: 10px; }

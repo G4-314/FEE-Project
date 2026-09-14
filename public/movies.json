@@ -11,7 +11,7 @@
     "city": "Mumbai",
     "theatre": "Cinepolis Infinity",
     "description": "The surviving Avengers assemble for one final, universe-spanning showdown against cosmic forces and the fallout of past choices.",
-    "image": "/images/Avengers_Endgame.jpg"
+    "image": "/images/movies/Avengers_Endgame.jpg"
   },
   {
     "id": "interstellar",
@@ -25,7 +25,8 @@
     "city": "Mumbai",
     "theatre": "PVR Icon",
     "description": "A team of explorers ventures across a wormhole in search of a new home for humanity, guided by hope, science, and love.",
-    "image": "/images/interstellar.jpg"
+    
+    "image": "/images/movies/interstellar.jpg"
   },
   {
     "id": "spider-man-no-way-home",
@@ -39,7 +40,8 @@
     "city": "Delhi",
     "theatre": "INOX Chanakyapuri",
     "description": "With the world knowing his identity, Peter Parker seeks help from Doctor Strange and faces multiverse consequences.",
-    "image": "/images/SpiderMan.jpg"
+   
+    "image": "/images/movies/SpiderMan.jpg"
   },
   {
     "id": "jawan",
@@ -53,7 +55,8 @@
     "city": "Delhi",
     "theatre": "PVR Rivoli",
     "description": "A fearless vigilante crosses into dangerous territory as personal duty and public justice collide in a high-stakes mission.",
-    "image": "/images/jawan.jpg"
+    
+    "image": "/images/movies/jawan.jpg"
   },
   {
     "id": "inception",
@@ -67,7 +70,8 @@
     "city": "Bengaluru",
     "theatre": "Miraj Cinema",
     "description": "A thief who steals secrets through dreams is offered a chance to erase his past by planting an idea into a target's mind.",
-    "image": "/images/inception.jpg"
+   
+    "image": "/images/movies/inception.jpg"
   },
   {
     "id": "3-idiots",
@@ -81,6 +85,7 @@
     "city": "Bengaluru",
     "theatre": "Carnival Multiplex",
     "description": "Three friends reunite after years apart, revisiting their college days, friendship, and the pressure of ambition.",
-    "image": "/images/3idiots.jpg"
+    
+    "image": "/images/movies/3idiots.jpg"
   }
 ]

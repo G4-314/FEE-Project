@@ -1,0 +1,57 @@
+[1mdiff --git a/src/App.jsx b/src/App.jsx[m
+[1mindex f9edd33..e2b7501 100644[m
+[1m--- a/src/App.jsx[m
+[1m+++ b/src/App.jsx[m
+[36m@@ -8,7 +8,7 @@[m [mimport Confirmation from './Confirmation.jsx'[m
+ [m
+ import './App.css'[m
+ [m
+[31m-function Login() {[m
+[32m+[m[32m/*function Login() {[m
+   return ([m
+     <div className="login-page">[m
+       <section className="login-card">[m
+[36m@@ -28,9 +28,9 @@[m [mfunction Login() {[m
+       </section>[m
+     </div>[m
+   )[m
+[31m-}[m
+[32m+[m[32m}*/[m
+ [m
+[31m-function Home() {[m
+[32m+[m[32m{/*function Home() {[m
+   return ([m
+     <div className="home-page">[m
+       <section className="home-card">[m
+[36m@@ -43,7 +43,7 @@[m [mfunction Home() {[m
+       </section>[m
+     </div>[m
+   )[m
+[31m-}[m
+[32m+[m[32m}*/}[m
+ [m
+ function App() {[m
+   return ([m
+[36m@@ -51,16 +51,18 @@[m [mfunction App() {[m
+       <nav className="navbar">[m
+         <Link className="brand" to="/">VIBE</Link>[m
+         <div className="nav-links">[m
+[31m-          <Link className="nav-link" to="/">Home</Link>[m
+[32m+[m[32m          {/*<Link className="nav-link" to="/">Home</Link>*/}[m
+           <Link className="nav-link" to="/movies">Movies</Link>[m
+          [m
+[31m-          <Link className="nav-link" to="/login">Login</Link>[m
+[32m+[m[32m         {/* <Link className="nav-link" to="/login">Login</Link>*/}[m
+         </div>[m
+       </nav>[m
+ [m
+       <Routes>[m
+[31m-        <Route path="/" element={<Home />} />[m
+[31m-        <Route path="/login" element={<Login />} />[m
+[32m+[m[32m       {/* <Route path="/" element={<Home />} /> */}[m
+[32m+[m[32m       <Route path="/" element={<Movies />} />[m
+[32m+[m[32m<Route path="/movies" element={<Movies />} />[m
+[32m+[m[32m       {/* <Route path="/login" element={<Login />} /> */}[m
+         <Route path="/movies" element={<Movies />} />[m
+         <Route path="/movie/:id" element={<MovieDetails />} />[m
+         <Route path="/movie-seats/:id" element={<MovieSeatSelection />} />[m

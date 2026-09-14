@@ -8,7 +8,7 @@ import Confirmation from './Confirmation.jsx'
 
 import './App.css'
 
-function Login() {
+/*function Login() {
   return (
     <div className="login-page">
       <section className="login-card">
@@ -28,9 +28,9 @@ function Login() {
       </section>
     </div>
   )
-}
+}*/
 
-function Home() {
+{/*function Home() {
   return (
     <div className="home-page">
       <section className="home-card">
@@ -43,7 +43,7 @@ function Home() {
       </section>
     </div>
   )
-}
+}*/}
 
 function App() {
   return (
@@ -51,17 +51,19 @@ function App() {
       <nav className="navbar">
         <Link className="brand" to="/">VIBE</Link>
         <div className="nav-links">
-          <Link className="nav-link" to="/">Home</Link>
+          {/*<Link className="nav-link" to="/">Home</Link>*/}
           <Link className="nav-link" to="/movies">Movies</Link>
          
-          <Link className="nav-link" to="/login">Login</Link>
+         {/* <Link className="nav-link" to="/login">Login</Link>*/}
         </div>
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/movies" element={<Movies />} />
+       {/* <Route path="/" element={<Home />} /> */}
+       <Route path="/" element={<Movies />} />
+<Route path="/movies" element={<Movies />} />
+       {/* <Route path="/login" element={<Login />} /> */}
+       {/* <Route path="/movies" element={<Movies />} />*/}
         <Route path="/movie/:id" element={<MovieDetails />} />
         <Route path="/movie-seats/:id" element={<MovieSeatSelection />} />
         <Route path="/booking-summary" element={<BookingSummary />} />
